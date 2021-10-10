@@ -22,13 +22,13 @@ const Login = () => {
             <div>
                 <h2>Login</h2>
                 <form>
-                    <input type="email" name="" id="" placeholder="Your Email" />
+                    <input type="email" name="" id="" placeholder="Your Email here" />
                     <br />
                     <input type="password" name="" id="" />
                     <br />
                     <input type="submit" value="Submit" />
                 </form>
-                <p>new to ema-john? <Link to="/register">Create Account</Link></p>
+                <p>New to ema-john? <Link to="/register">Create Account</Link></p>
                 <div>-------or----------</div>
                 <button
                     className="btn-regular"
